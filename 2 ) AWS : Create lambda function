@@ -8,4 +8,21 @@
       B ) Select programming Language
       C ) click on ( Change default execution role ) 
             A ) select ( use and exesting role ) 
+            B ) Select role and create it
             
+ 
+ now at the button we can change code we can ad trigger destination and more
+ 
+ 1 ) for testing lambda click on test
+ 2 ) lamda successully working
+            
+________________________ Crate role _________
+
+1 ) search in search box ( IMS )
+2 ) left panel click on ( role )
+3 ) click on create role 
+4 ) selech checkbox ( lambda ) 
+5 ) search and give basic permission search ( AWSlambdaexe ) 
+6 ) selech check box and click on next button
+7 ) click on create role
+8 ) role will create 
