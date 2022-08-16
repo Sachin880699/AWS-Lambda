@@ -1,0 +1,11 @@
+1 ) open AWS ans login it
+2 ) search in search box type ( Lambda ) 
+3 ) go to on lambda ( https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1 )
+4 ) go to function and then create on ( create function ) 
+5 ) first select ( author from scratch ) 
+6 ) fill information
+      A ) set function name
+      B ) Select programming Language
+      C ) click on ( Change default execution role ) 
+            A ) select ( use and exesting role ) 
+            
