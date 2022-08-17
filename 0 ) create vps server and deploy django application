@@ -1,0 +1,32 @@
+1 ) search ec2
+2 ) click on  ( instance ) 
+3 ) click on ( launch instance )
+4 ) select ubuntu , and and select free tire eligible
+5 ) click on ( launch instance )
+6 ) fill info and download it ( use of it to login by ssh )
+7 ) then click on  ( launch instance )
+8 ) and then go to ( ec2 dashboard )
+9 ) click on instance 
+10 ) select created server
+11 ) then click on ( security )
+12 ) then click on (Security groups )
+13 ) then click on ( edit enbound rules )
+14 ) then add rules
+      A ) ssh anyware select ip ( 0.0.0.0/0 )
+      B ) All TCP Anyware select ip ( 0.0.0.0/0 )
+      C ) HTTP Anyware select ip ( 0.0.0.0/0 )
+      
+15 ) click on save rules
+
+16 ) sudo ssh -i "login.pem" ubuntu@54.92.235.199
+
+
+
+
+____________________ Next is django deployment ________________
+
+1 ) take a project code by git and do git clone
+2 ) create virtual env and activate that
+3 ) go to project manage.py file locate there
+4 ) install project requrement.txt
+5 ) screen -d -m python manage.py runserver internel_ip:8000
