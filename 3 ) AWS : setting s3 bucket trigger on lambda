@@ -1,0 +1,44 @@
+_____________ Step ___________
+
+1 ) create S3 bucket
+2 ) create IAM  Role
+3 ) Create Lambda function
+4 ) Add Trigger
+5 ) Test
+
+
+
+1 ) in search box search ( s3 )
+2 ) click on that
+3 ) now click on ( create bucket ) 
+4 ) * then create a role  * 
+5 ) and give this permission ( AWSLambdaBasicExecutionRole )
+6 ) and create 
+
+7 ) now search in search ( lambda ) 
+8 ) click on create lambda function
+9 ) fill all info and selecte you created role
+
+
+
+
+_____________ Now Add Trigger  ______
+
+
+1 ) search lambda and select created s3 bucket
+2 ) click on ( add trigger )
+3 ) select ( s3 ) 
+4 ) select created bucket
+5 ) select all object create event
+6 ) now click on created lambda function
+7 ) print(event) in code
+8 ) 
+
+
+
+
+
+
+
+
+
