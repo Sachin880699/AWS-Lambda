@@ -32,7 +32,19 @@ _____________ Now Add Trigger  ______
 5 ) select all object create event
 6 ) now click on created lambda function
 7 ) print(event) in code
-8 ) 
+
+
+
+____________ now search ( s3 bucket ) ________ and click on that ________
+
+1 ) select created s3 bucket
+2 ) and upload text file
+3 ) click on upload button
+4 ) now search in box ( lambda ) and go to created lambda function
+5 ) then click on ( monitor ) 
+6 ) then click on ( logs )
+7 ) click on ( view logs in cloudwatch ) 
+8 ) here we can see logs
 
 
 
